@@ -98,7 +98,7 @@ public class Storage {
         List<Link> linksToRemove = new ArrayList<>();
         for (Link link : links) {
             if (!link.checkAvailableTransition()) {
-                System.out.println("Количество возможных переходов закончилось для ссылки" + link.getShortLink());
+                System.out.println("Количество возможных переходов закончилось для ссылки " + link.getShortLink());
                 linksToRemove.add(link);
                 continue;
             }
